@@ -1,0 +1,37 @@
+name: Bug Report
+description: Report a bug for FedRAMP OSCAL automation
+title: '[Bug]: '
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: Provide as much information as possible to help us investigate the bug in the context of the FedRAMP OSCAL automation project.
+  - type: input
+    id: oscal-version
+    attributes:
+      label: OSCAL version
+      description: Which version of OSCAL are you using?
+      placeholder: e.g. v1.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the issue you are experiencing in detail
+      placeholder: What is the actual and expected behavior?
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Please confirm the following
+      options:
+        - label:
+            I agree to follow this project's [Code of
+            Conduct](link-to-code-of-conduct)
+          required: true
+        - label:
+            I checked the [current
+            issues](https://github.com/{owner}/{repo}/issues) for duplicate problems

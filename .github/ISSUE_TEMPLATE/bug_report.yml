@@ -22,6 +22,14 @@ body:
       placeholder: What is the actual and expected behavior?
     validations:
       required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Reproduction
+      description: How can we reproduce the bug?
+      placeholder: Enter steps on how to reproduce the bug
+    validations:
+      required: true
   - type: checkboxes
     id: terms
     attributes:

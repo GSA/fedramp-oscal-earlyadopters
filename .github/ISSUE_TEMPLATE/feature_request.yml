@@ -1,0 +1,28 @@
+name: Feature request
+description: Request a feature
+title: '[Feature Request]: '
+labels: enhancement
+body:
+  - type: markdown
+    attributes:
+      value: Use this template to request a new feature.
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Describe the feature you request.
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: Please confirm the following
+      options:
+        - label:
+            I agree to follow this project's [Code of
+            Conduct](link)
+          required: true
+        - label:
+            I checked the [current
+            issues](https://github.com/vitg-gsa-automation/earlyadopters/issues) for duplicate requests

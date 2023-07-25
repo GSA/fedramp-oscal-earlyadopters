@@ -23,7 +23,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: description
+    id: reproduction
     attributes:
       label: Reproduction
       description: How can we reproduce the bug?

@@ -9,8 +9,8 @@ body:
   - type: input
     id: oscal-version
     attributes:
-      label: OSCAL version
-      description: Which version of OSCAL are you using?
+      label: Portal version
+      description: Which version of the portal are you using? Can be found in the footer of the application
       placeholder: e.g. v1.0.0
     validations:
       required: true

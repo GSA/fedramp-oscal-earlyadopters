@@ -42,4 +42,4 @@ body:
           required: true
         - label:
             I checked the [current
-            issues](https://github.com/{owner}/{repo}/issues) for duplicate problems
+            issues](https://github.com/vitg-gsa-automation/earlyadopters/issues) for duplicate problems

@@ -1,5 +1,9 @@
 # FedRAMP OSCAL Early Adopters Working Group
 
+## Deprecation Notice
+
+FedRAMP has deprecated this repository in favor of archive of information about this series of meetings on the [automate.fedramp.gov site](https://automate.fedramp.gov/collaborate/meetings/early-adopters/). FedRAMP no longer maintains this repo, and its contents are available read-only for posterity.
+
 ## Charter
 
 To create an engagement space for Cloud Service Providers, 3PAOs, tool developers and others who are adopting OSCAL for the FedRAMP® use case with the goal of refinement of FedRAMP automation technology and processes.
